@@ -1,5 +1,5 @@
 {
-  "name": "next-js-boilerplate",
+  "name": "radudotat-portfolio",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
@@ -50,5 +50,5 @@
     "tailwindcss": "^3.0.8",
     "typescript": "^4.5.4"
   },
-  "license": "ISC"
+  "license": "AGPL-3.0-or-later"
 }
