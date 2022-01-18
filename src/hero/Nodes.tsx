@@ -1,23 +1,21 @@
 import Particles from 'react-tsparticles';
 
-type IHeroNodesProps = {
-  height?: string;
-};
+const Nodes = () => {
+  // const particlesInit = (main: any) => {
+  //   console.log('particlesInit', main, props);
+  //
+  //   // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+  // };
 
-const Nodes = (props: IHeroNodesProps) => {
-  const particlesInit = (main) => {
-    // console.log('particlesInit', main);
+  // const particlesLoaded = (container: any) => {
+  //   console.log('particlesLoaded', container);
+  // };
 
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-  };
-
-  const particlesLoaded = (container) => {
-    // console.log('particlesLoaded', container);
-  };
+  // @ts-ignore
   return (
     <Particles
-      init={particlesInit}
-      loaded={particlesLoaded}
+      // init={particlesInit}
+      // loaded={particlesLoaded}
       className="hero-up"
       canvasClassName="hero-one"
       options={{

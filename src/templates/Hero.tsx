@@ -1,4 +1,5 @@
 import Link from 'next/link';
+
 import { Background } from '../background/Background';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Nodes } from '../hero/Nodes';
@@ -15,11 +16,6 @@ const Hero = () => (
             <a target="_blank">GitHub</a>
           </Link>
         </li>
-{/*        <li>
-          <Link href="/">
-            <a>Sign in</a>
-          </Link>
-        </li>*/}
       </NavbarTwoColumns>
     </Section>
 
@@ -34,8 +30,7 @@ const Hero = () => (
         description="Developing powerful modern web applications, since 2000, that form the foundation for the Stateful Web & Realtime Applications that people and businesses use every day."
         button={<canvas id="nodes"></canvas>}
       />
-
-      <Nodes title={undefined} description={''} />
+      <Nodes />
     </Section>
   </Background>
 );
