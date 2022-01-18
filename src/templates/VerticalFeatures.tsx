@@ -3,27 +3,28 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="Made by me!"
+    description="Some of the most creative and enjoyable projects I have worked on."
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
+      title="www.radu.at"
+      description="Personal PWA, my Digital Property on www where I can share and collaborate with friends, family and strangers from the 🕸️."
+      image="/assets/images/radu.at.jpg"
+      imageAlt="Screenshot of https://radu.at"
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
+      title="www.wien.ro"
+      description="Vienna Real-time Online.
+      The most avantgarde platform for the Smart City of Vienna where you can really interact with the city and with the people of the city near real-time. Join the Vienna's ❤ Beat!"
+      image="/assets/images/wien.ro.jpg"
+      imageAlt="Screenshot of https://wien.ro"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      title="www.mariazellerland.net"
+      description="Mariazell and surroundings in one place 🚶 Insider tips about Hotels, Accommodations, Restaurants, Hiking routes, Local businesses and more... online & offline"
+      image="/assets/images/mariazellerland.net.jpg"
+      imageAlt="Screenshot of https://mariazellerland.net"
     />
   </Section>
 );

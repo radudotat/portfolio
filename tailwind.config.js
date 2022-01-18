@@ -15,6 +15,9 @@ module.exports = {
     },
     extend: {
       colors: {
+        reper: {
+          start: 'rgb(3, 169, 244)',
+        },
         primary: {
           100: '#E6F6FE',
           200: '#C0EAFC',

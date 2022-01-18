@@ -1,5 +1,4 @@
 import Link from 'next/link';
-
 import { Background } from '../background/Background';
 import { CenteredFooter } from '../footer/CenteredFooter';
 import { Section } from '../layout/Section';
@@ -86,7 +85,7 @@ const Footer = () => (
           </Link>
         </li>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
+          <Link href="https://github.com/radudotat">
             <a>GitHub</a>
           </Link>
         </li>

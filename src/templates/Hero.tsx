@@ -1,8 +1,7 @@
 import Link from 'next/link';
-
 import { Background } from '../background/Background';
-import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
+import { Nodes } from '../hero/Nodes';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
@@ -12,35 +11,31 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            <a>GitHub</a>
+          <Link href="https://github.com/radudotat">
+            <a target="_blank">GitHub</a>
           </Link>
         </li>
-        <li>
+{/*        <li>
           <Link href="/">
             <a>Sign in</a>
           </Link>
-        </li>
+        </li>*/}
       </NavbarTwoColumns>
     </Section>
 
-    <Section yPadding="pt-20 pb-32">
+    <Section className="hero-body" yPadding="pt-20 pb-32">
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
+            {'Full-Stack Web Developer\n'}
+            <span className="text-primary-500">Vienna, Austria</span>
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
-        button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <a>
-              <Button xl>Download Your Free Theme</Button>
-            </a>
-          </Link>
-        }
+        description="Developing powerful modern web applications, since 2000, that form the foundation for the Stateful Web & Realtime Applications that people and businesses use every day."
+        button={<canvas id="nodes"></canvas>}
       />
+
+      <Nodes title={undefined} description={''} />
     </Section>
   </Background>
 );
