@@ -1,7 +1,7 @@
 
 ### Requirements
 
-- Node.js and npm
+- Node.js and yarn
 
 ### Getting started
 
