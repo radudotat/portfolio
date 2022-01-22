@@ -23,7 +23,7 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'Full-Stack Web Developer\n'}
+            {'Full-Stack Web³ Developer\n'}
             <span className="text-primary-500">Vienna, Austria</span>
           </>
         }

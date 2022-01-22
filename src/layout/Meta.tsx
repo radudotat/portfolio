@@ -1,7 +1,6 @@
 import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-
 import { AppConfig } from '../utils/AppConfig';
 
 type IMetaProps = {
@@ -16,6 +15,12 @@ const Meta = (props: IMetaProps) => {
   return (
     <>
       <Head>
+        <script
+          defer
+          data-api="https://a.radu.at/api/event"
+          data-domain="radudotat.netlify.app"
+          src="https://a.radu.at/js/ana.js"
+        ></script>
         <meta charSet="UTF-8" key="charset" />
         <meta
           name="viewport"
